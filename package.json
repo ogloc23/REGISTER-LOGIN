@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node src/index.ts",
+    "start": "node src/index.js",
     "dev": "ts-node-dev --respawn src/index.ts",
     "start:prod": "node dist/index.js",
     "build": "npm run prisma:generate && tsc",
